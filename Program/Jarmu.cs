@@ -6,10 +6,10 @@ namespace Program
 {
     public class Jarmu
     {
-        public string Rendszam { get; private set; }
-        public int Kor { get; private set; }
-        public int KilometerOra { get; protected set; }
-        public int UzemanyagSzint { get; protected set; }
+        public string Rendszam { get;  set; }
+        public int Kor { get; set; }
+        public int KilometerOra { get; set; }
+        public int UzemanyagSzint { get; set; }
 
         public Jarmu(string rendszam, int kor, int kilometerOra, int uzemanyagSzint)
         {

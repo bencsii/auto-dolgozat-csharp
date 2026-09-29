@@ -6,7 +6,7 @@ namespace Program
 {
     public class TeherAuto : Jarmu
     {
-        public int Rakomany { get; private set; }
+        public int Rakomany { get; set; }
 
         public TeherAuto(string rendszam, int kor, int kilometerOra, int uzemanyagSzint, int rakomany) : base(rendszam, kor, kilometerOra, uzemanyagSzint)
         {

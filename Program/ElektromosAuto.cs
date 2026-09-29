@@ -6,7 +6,7 @@ namespace Program
 {
     public class ElektromosAuto : Jarmu
     {
-        public int AkkumulatorSzint { get; private set; }
+        public int AkkumulatorSzint { get; set; }
 
         public override bool SzervizSzukseges
         {
