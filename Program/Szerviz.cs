@@ -35,8 +35,7 @@ namespace Program
         {
             foreach (Jarmu jarmu in jarmuvek)
             {
-                Console.WriteLine($"Rendszam: {jarmu.Rendszam}" + $"Kor: {jarmu.Kor}" + $"Kilometerora: {jarmu.KilometerOra}" + $"Uzemanyagszint: {jarmu.UzemanyagSzint}"
-                );
+                Console.WriteLine($"Rendszam: {jarmu.Rendszam}" + $"Kor: {jarmu.Kor}" + $"Kilometerora: {jarmu.KilometerOra}" + $"Uzemanyagszint: {jarmu.UzemanyagSzint}");
             }
         }
     }

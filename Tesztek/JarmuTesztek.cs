@@ -200,6 +200,15 @@ namespace Tesztek
             Assert.That(auto.KilometerOra, Is.EqualTo(190000));
             Assert.That(auto.AkkumulatorSzint, Is.EqualTo(70));
         }
-        
+
+        [Test]
+
+        public void Vonat_VagonokSzama_KorlatokKozottMarad()
+        {
+            Vonat vonat = new Vonat("EV-123", 3, 100000, 150,100);
+
+            Assert.That(vonat.VagonokSzama, Is.EqualTo(100));
+        }
+
     }
 }
